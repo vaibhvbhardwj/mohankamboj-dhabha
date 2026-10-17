@@ -1,0 +1,23 @@
+.next
+out
+node_modules
+*.log
+tsconfig.tsbuildinfo
+.env*
+!.env.example
+.netlify/
+qa-screenshots/
+tmp/
+# Original uploads are preserved locally; web assets are tracked under public/.
+/time/
+/reels/
+/moving_gallery-mohankamboj/
+/hero.jpeg
+/mk_logo.png
+/loading_bg.png
+/Mk MENU DESIGN  2026.pdf
+# Local planning notes and source menu transcription are not deployment code.
+/0[1-6]_*.md
+/CODEX_*.md
+/CONTENT_TODO.md
+/Mohan_Kamboj_Menu_2026.md

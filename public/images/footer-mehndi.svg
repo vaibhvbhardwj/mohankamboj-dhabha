@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" fill="none" stroke="#d8b979" stroke-width="1.4">
+  <defs>
+    <g id="petal">
+      <path d="M350 291C310 254 309 201 350 157C391 201 390 254 350 291Z"/>
+      <path d="M350 276C327 246 327 215 350 181C373 215 373 246 350 276Z"/>
+      <path d="M350 262V196"/>
+      <circle cx="350" cy="166" r="3.5" fill="#d8b979"/>
+    </g>
+    <g id="paisley">
+      <path d="M350 115C287 89 294 34 338 22C316 52 365 59 374 83C383 108 360 130 342 117C328 107 337 92 347 98C355 104 348 111 343 106"/>
+      <path d="M330 39C318 64 351 74 357 91C363 107 353 116 346 111"/>
+      <path d="M310 68Q325 73 325 85Q311 87 310 68ZM325 87Q342 86 343 98Q329 103 325 87Z"/>
+      <circle cx="323" cy="42" r="2.2" fill="#d8b979"/>
+      <circle cx="317" cy="51" r="2" fill="#d8b979"/>
+      <circle cx="315" cy="60" r="1.8" fill="#d8b979"/>
+    </g>
+    <g id="lace">
+      <path d="M350 137Q326 124 332 112Q341 101 350 116Q359 101 368 112Q374 124 350 137Z"/>
+      <circle cx="350" cy="106" r="2.5" fill="#d8b979"/>
+    </g>
+  </defs>
+  <circle cx="350" cy="350" r="40"/>
+  <circle cx="350" cy="350" r="47" stroke-dasharray="1 6" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="350" cy="350" r="55"/>
+  <circle cx="350" cy="350" r="183"/>
+  <circle cx="350" cy="350" r="191" stroke-dasharray="1 7" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="350" cy="350" r="202"/>
+  <circle cx="350" cy="350" r="211"/>
+  <circle cx="350" cy="350" r="325" stroke-dasharray="1 9" stroke-linecap="round" stroke-width="3"/>
+  <use href="#petal"/><use href="#petal" transform="rotate(30 350 350)"/><use href="#petal" transform="rotate(60 350 350)"/>
+  <use href="#petal" transform="rotate(90 350 350)"/><use href="#petal" transform="rotate(120 350 350)"/><use href="#petal" transform="rotate(150 350 350)"/>
+  <use href="#petal" transform="rotate(180 350 350)"/><use href="#petal" transform="rotate(210 350 350)"/><use href="#petal" transform="rotate(240 350 350)"/>
+  <use href="#petal" transform="rotate(270 350 350)"/><use href="#petal" transform="rotate(300 350 350)"/><use href="#petal" transform="rotate(330 350 350)"/>
+  <use href="#paisley"/><use href="#paisley" transform="rotate(30 350 350)"/><use href="#paisley" transform="rotate(60 350 350)"/>
+  <use href="#paisley" transform="rotate(90 350 350)"/><use href="#paisley" transform="rotate(120 350 350)"/><use href="#paisley" transform="rotate(150 350 350)"/>
+  <use href="#paisley" transform="rotate(180 350 350)"/><use href="#paisley" transform="rotate(210 350 350)"/><use href="#paisley" transform="rotate(240 350 350)"/>
+  <use href="#paisley" transform="rotate(270 350 350)"/><use href="#paisley" transform="rotate(300 350 350)"/><use href="#paisley" transform="rotate(330 350 350)"/>
+  <use href="#lace" transform="rotate(15 350 350)"/><use href="#lace" transform="rotate(45 350 350)"/><use href="#lace" transform="rotate(75 350 350)"/>
+  <use href="#lace" transform="rotate(105 350 350)"/><use href="#lace" transform="rotate(135 350 350)"/><use href="#lace" transform="rotate(165 350 350)"/>
+  <use href="#lace" transform="rotate(195 350 350)"/><use href="#lace" transform="rotate(225 350 350)"/><use href="#lace" transform="rotate(255 350 350)"/>
+  <use href="#lace" transform="rotate(285 350 350)"/><use href="#lace" transform="rotate(315 350 350)"/><use href="#lace" transform="rotate(345 350 350)"/>
+  <path d="M350 321Q320 330 321 350Q330 380 350 379Q380 370 379 350Q370 320 350 321Z"/>
+  <circle cx="350" cy="350" r="17"/>
+  <circle cx="350" cy="350" r="7" fill="#d8b979"/>
+</svg>

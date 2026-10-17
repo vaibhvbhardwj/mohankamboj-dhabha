@@ -1,0 +1,44 @@
+[build]
+  command = "npm run build:production"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "24"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+# Keep branch builds and pull-request previews out of search results.
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_INDEXABLE = "false"
+
+[context.branch-deploy.environment]
+  NEXT_PUBLIC_INDEXABLE = "false"
+
+[[redirects]]
+  from = "https://www.mohankambojdhaba.com/*"
+  to = "https://mohankambojdhaba.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.mohankambojdhaba.com/*"
+  to = "https://mohankambojdhaba.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://mohankambojdhaba.com/*"
+  to = "https://mohankambojdhaba.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dining"
+  to = "/menu/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dining/"
+  to = "/menu/"
+  status = 301
+  force = true

@@ -1,0 +1,29 @@
+{
+  "name": "mohan-kamboj-dhaba-hotel",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "build:production": "node scripts/build-production.mjs",
+    "check:export": "node scripts/check-export.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "start": "node scripts/preview.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.7.2",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.0",
+    "typescript": "6.0.3"
+  }
+}
