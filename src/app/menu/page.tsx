@@ -43,8 +43,8 @@ export default function MenuPage() {
             <p>Come for a quick breakfast, a family lunch or an unhurried North Indian dinner. Our pure-vegetarian kitchen carries the same welcome we began with in {business.establishedYear}.</p>
           </SectionHeader>
           <div className="food-card-row">
-            <article className="food-card"><ResponsiveImage src={image("parantha").src} alt={image("parantha").alt} /><div><h3>Fresh from the tandoor</h3><p>Stuffed paranthas, warm breads and generous helpings of white butter.</p><FoodPhotoCredit photo={image("parantha")} /></div></article>
-            <article className="food-card"><ResponsiveImage src={image("thali").src} alt={image("thali").alt} /><div><h3>A meal to linger over</h3><p>Rich dals, paneer favourites and a thali made for a proper Murthal appetite.</p></div></article>
+            <article className="food-card"><ResponsiveImage src={image("momos").src} alt={image("momos").alt} /><div><h3>Steamed to perfection</h3><p>Delicate handcrafted vegetable momos served hot in traditional bamboo baskets with spicy dips.</p><FoodPhotoCredit photo={image("momos")} /></div></article>
+            <article className="food-card"><ResponsiveImage src={image("thali").src} alt={image("thali").alt} /><div><h3>A meal to linger over</h3><p>Rich dals, shahi paneer, fresh tandoori breads and a grand thali made for a proper highway appetite.</p></div></article>
             <article className="food-card"><ResponsiveImage src={image("chaiPour").src} alt={image("chaiPour").alt} /><div><h3>One more cup</h3><p>Highway chai, a cool lassi and a moment to pause before the road ahead.</p></div></article>
           </div>
           <p className="dining-dietary-note">Please tell our team about any allergies or dietary needs before ordering.</p>

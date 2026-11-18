@@ -63,23 +63,23 @@ export const curatedGalleryImages: GalleryItem[] = [
     category: "Food",
     src: image("thali").src,
     alt: image("thali").alt,
-    caption: "The Grand Royal Murthal Thali — Rice, vegetarian curries, breads, raita and sweets.",
+    caption: "Special Mohan Kamboj Thali — Shahi paneer, dal makhani, mix veg, breads, raita and dessert.",
     aspectRatio: "5/10"
   },
   {
-    id: "gal-tandoori-paranthas",
+    id: "gal-steamed-momos",
     category: "Food",
-    src: image("parantha").src,
-    alt: image("parantha").alt,
-    caption: "Butter-Topped Paranthas — A classic Punjabi comfort served with white butter.",
+    src: image("momos").src,
+    alt: image("momos").alt,
+    caption: "Steamed Veg Momos — Handcrafted dumplings served in a bamboo steamer with spicy dips.",
     aspectRatio: "5/10"
   },
   {
-    id: "gal-dal-makhani",
+    id: "gal-curry-spread",
     category: "Food",
     src: image("dalMakhani").src,
     alt: image("dalMakhani").alt,
-    caption: "Slow-Cooked Dal Makhani — Rich lentils finished with cream, butter and warming spices.",
+    caption: "North Indian Curry Feast — Yellow dal tadka, rich paneer gravy, raita and fresh tandoori breads.",
     aspectRatio: "5/10"
   },
   {

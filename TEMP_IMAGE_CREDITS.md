@@ -2,14 +2,12 @@
 
 These are the original prototype reference sources. Many have since been replaced with owner-supplied property photographs; see `ASSET_MANIFEST.md` and the current mappings in `src/data/images.ts`.
 
-## Food photographs added October 2026
+## Food photographs replaced with authentic property photographs — October 2026
 
-| Local file | Creator and original | License | Changes |
-| --- | --- | --- | --- |
-| `public/images/food/dal-makhani.jpg` | Miansari66 — [Dal Makhani..JPG](https://commons.wikimedia.org/wiki/File:Dal_Makhani..JPG) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Resized and JPEG-compressed |
-| `public/images/food/aloo-paratha.jpg` | Barthateslisa — [Aloo Paratha with Butter from India.jpg](https://commons.wikimedia.org/wiki/File:Aloo_Paratha_with_Butter_from_India.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Resized and JPEG-compressed; adapted image shared under the same license |
-
-The parantha photograph has visible source, author, license, and modification credit on the pages displaying it. The thali, timeline photographs, and reel stills come from the supplied project assets.
+The temporary Wikimedia Commons photos (`dal-makhani.jpg` and `aloo-paratha.jpg`) have been replaced with authentic owner-supplied dish photographs taken at Mohan Kamboj Dhaba & Hotel, featuring official MK table mats and menus. The three featured food assets are:
+- `royal-murthal-thali.jpeg`: Special Mohan Kamboj Thali
+- `dal-makhani.jpg`: North Indian Curry Feast (Dal Tadka, Paneer, Naan & Raita)
+- `steamed-momos.jpg` / `aloo-paratha.jpg`: Steamed Veg Momos Platter
 
 ## Original prototype references
 

@@ -31,23 +31,23 @@ const heroDisplay = localFont({
 
 const foodHighlights = [
   {
-    title: "Signature Tandoori Paranthas",
-    copy: "Crispy clay-oven baked paranthas served with generous dollops of fresh white butter.",
-    price: "From ₹110",
-    photo: image("parantha"),
+    title: "Fresh Steamed Veg Momos",
+    copy: "Delicate handcrafted vegetable dumplings served in a traditional bamboo steamer with spicy chutney and garlic dip.",
+    price: "₹160",
+    photo: image("momos"),
     active: false
   },
   {
-    title: "Grand Royal Murthal Thali",
-    copy: "A royal multi-course vegetarian feast with paneer, dal makhani, pulao, breads, and desserts.",
+    title: "Special Mohan Kamboj Thali",
+    copy: "A royal multi-course vegetarian feast with Shahi Paneer, Dal Makhani, Mix Veg, Jeera Rice, raita, breads, and dessert.",
     price: "₹449 Complete",
     photo: image("thali"),
     active: true
   },
   {
-    title: "Slow-Cooked Dal Makhani",
-    copy: "Authentic slow-simmered black lentils infused with pure desi ghee, cream, and butter.",
-    price: "₹279",
+    title: "North Indian Curry Feast",
+    copy: "Aromatic slow-simmered yellow dal tadka and rich cottage cheese curry, served with hot tandoori breads and boondi raita.",
+    price: "From ₹259",
     photo: image("dalMakhani"),
     active: false
   }
@@ -115,9 +115,9 @@ export default function HomePage() {
             ======================================================== */}
         <section className="section food-discovery section-muted">
           <div className="container">
-            <SectionHeader eyebrow="Signature Food" title="Authentic flavours crafted fresh from our clay tandoor.">
+            <SectionHeader eyebrow="Signature Food" title="Authentic flavours crafted fresh from our kitchen.">
               <p>
-                From Murthal&apos;s famous butter-laden paranthas to slow-simmered Dal Makhani, Paneer specialities,
+                From freshly steamed Himalayan momos and rich slow-simmered dals to Paneer specialities
                 and our grand royal thali — explore our complete 2026 menu.
               </p>
             </SectionHeader>
@@ -158,7 +158,7 @@ export default function HomePage() {
             <div className="wide-image-wrap">
               <Image
                 src="/images/atmosphere-dining.jpg"
-                alt="Mohan Kamboj Dhaba & Hotel grand dining hall and hospitality atmosphere"
+                alt="Mohan Kamboj Hotel modern illuminated reception and front desk with golden MK emblem and lounge seating"
                 fill
                 sizes="(max-width: 900px) 100vw, 55vw"
                 loading="lazy"

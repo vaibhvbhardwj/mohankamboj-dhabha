@@ -18,7 +18,7 @@ export type ReferenceImageKey =
   | "parking"
   | "patioNight";
  
-export type FoodImageKey = "parantha" | "dalMakhani";
+export type FoodImageKey = "parantha" | "momos" | "dalMakhani";
 
 export type ReferenceImage = {
   key: ReferenceImageKey | FoodImageKey;
@@ -34,21 +34,27 @@ export type ReferenceImage = {
 export const referenceImages: Record<ReferenceImageKey | FoodImageKey, ReferenceImage> = {
   parantha: {
     key: "parantha",
-    src: "/images/food/aloo-paratha.jpg",
-    alt: "Two stuffed aloo paranthas served with white butter",
-    credit: "Barthateslisa",
-    source: "https://commons.wikimedia.org/wiki/File:Aloo_Paratha_with_Butter_from_India.jpg",
-    replacementPurpose: "Parantha dish photograph",
-    license: { name: "CC BY-SA 4.0", url: "https://creativecommons.org/licenses/by-sa/4.0/" },
-    modifications: "Resized for web."
+    src: "/images/food/steamed-momos.jpg",
+    alt: "Steamed vegetable momos served in a traditional bamboo steamer with spicy red chutney and garlic mayo dip",
+    credit: "Mohan Kamboj Dhaba & Hotel",
+    source: "Owner-supplied dish photograph",
+    replacementPurpose: "Steamed momos dish photograph"
+  },
+  momos: {
+    key: "momos",
+    src: "/images/food/steamed-momos.jpg",
+    alt: "Steamed vegetable momos served in a traditional bamboo steamer with spicy red chutney and garlic mayo dip",
+    credit: "Mohan Kamboj Dhaba & Hotel",
+    source: "Owner-supplied dish photograph",
+    replacementPurpose: "Steamed momos dish photograph"
   },
   dalMakhani: {
     key: "dalMakhani",
     src: "/images/food/dal-makhani.jpg",
-    alt: "Dal makhani topped with cream, butter, ginger and spices",
-    credit: "Miansari66 / Wikimedia Commons",
-    source: "https://commons.wikimedia.org/wiki/File:Dal_Makhani..JPG",
-    replacementPurpose: "Dal makhani dish photograph"
+    alt: "North Indian curry feast featuring yellow dal tadka, rich paneer gravy, boondi raita, green chutney, and tandoori breads",
+    credit: "Mohan Kamboj Dhaba & Hotel",
+    source: "Owner-supplied dish photograph",
+    replacementPurpose: "Dal and North Indian curry spread dish photograph"
   },
   exteriorNight: {
     key: "exteriorNight",
@@ -101,10 +107,10 @@ export const referenceImages: Record<ReferenceImageKey | FoodImageKey, Reference
   thali: {
     key: "thali",
     src: "/images/food/royal-murthal-thali.jpeg",
-    alt: "Royal Murthal thali with rice, vegetarian curries, raita, breads and sweets",
+    alt: "Special Mohan Kamboj Thali with Shahi Paneer, Dal Makhani, Mix Veg, Jeera Rice, Boondi Raita, salad, papad, garlic naan, and sweet dish",
     credit: "Mohan Kamboj Dhaba & Hotel",
     source: "Owner-supplied thali photograph",
-    replacementPurpose: "Vegetarian meal or thali photograph"
+    replacementPurpose: "Special Mohan Kamboj Thali photograph"
   },
   naanSpread: {
     key: "naanSpread",
